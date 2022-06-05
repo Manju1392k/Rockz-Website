@@ -21,9 +21,12 @@
 }
 
 .buttons a {
-    color: #fff;
+    color: #000;
     font-weight: bold;
     margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 22px;
 }
 
 .logo img {
