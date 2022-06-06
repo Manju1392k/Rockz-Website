@@ -80,5 +80,12 @@
         <input type="submit" value='Submit' class='submitbtn'/>
       </form>
     </div>
+
+    <script>
+      {% for message in messages %}
+      alert('{{message}}')
+      {% endfor %}
+    </script>
+
   </body>
 </html>
