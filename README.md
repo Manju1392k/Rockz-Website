@@ -2,19 +2,20 @@
 
 * ### Rockz website is a Rocket information website0. 🚀
 * ### Rockz is also used for Intern Apply.
+* ### Frontend and Backend part fully completed.
 
 ---
 
 # 👁️‍🗨️ Preview of Rockz Website Part 1
 
-
+https://user-images.githubusercontent.com/66934377/172134508-aac0ab20-d99d-4fa5-a815-0868ec28b224.mp4
 
 ---
 
 
 # 👁️‍🗨️ Preview of Rockz Website Part 2
 
-
+https://user-images.githubusercontent.com/66934377/172134517-59d507d9-e9f8-4c1b-b2e0-5d48c8abdc05.mp4
 
 ---
 
@@ -82,7 +83,7 @@ python manage.py runserver
 * Now Open **cmd** in windows, **bash Terminal** in mac. Now Hit the Below Command's
 
 ```bash
-git clone https://github.com/Manju1392k/MiniNews-Website.git
+git clone https://github.com/Manju1392k/Rockz-Website.git
 ```
 
 * The project cloned after this process
