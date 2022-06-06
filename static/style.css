@@ -99,7 +99,17 @@ body {
     font-weight: bold;
 }
 
-.formbox{
-    padding: 1rem;
+.formbox {
+    padding-left: 6rem;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputags {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 10px;
+    padding-left: 15px;
 }
