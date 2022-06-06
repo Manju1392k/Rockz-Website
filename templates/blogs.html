@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+
+    <link rel="shortcut icon" href="/static/logo.jpg" type="image/jpg" />
+
+    <link rel="stylesheet" href="/static/style.css" />
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+          <img src="/static/logo.jpg" alt="" />
+        </div>
+        <div class="links">
+          <a href="{% url 'home' %}">Home</a>
+          <a href="{% url 'blogs' %}">Blog's</a>
+          <a href="#">Latest Rocket's</a>
+          <a href="#">UpComing Rocket's</a>
+        </div>
+        <div class="buttons">
+          <a href="#">Join</a>
+          <a href="#">ApplyIntern</a>
+        </div>
+      </div>
+
+{% for blog in blogs %}
+      <div class="blogbox">
+          <img src="/media/{{blog.Rocket_Image}}" alt="" class='blogimage'>
+          <h5 class='margin'>AddedOn: <span>{{blog.Rocket_Time}}</span></h5>
+          <h1 class='margin'>RocketName: <span>{{blog.Rocket_Name}}</span></h1>
+          <h1 class='margin'>RocketLaunchingDate: <span>{{blog.Rocket_LaunchDate}}</span></h1>
+          <h1 class='margin'>RocketLandingDate: <span>{{blog.Rocket_LandingDate}}</span></h1>
+      </div>
+      {% endfor %}
+
+</body>
+</html>

@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
 from .forms import RocketBlogForm
+from .models import RocketBlog
 
 from django.contrib import messages
 
@@ -13,3 +14,7 @@ def Home(request):
             messages.success(request, 'Your Blog has been added successfully')
             return redirect('home')
     return render(request, 'index.html', {'form':form})
+
+def Blogs(request):
+    blogs = RocketBlog.objects.all
+    return render(request, 'blogs.html', {'blogs':blogs})

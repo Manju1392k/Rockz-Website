@@ -131,6 +131,7 @@ body {
     color: white;
     font-weight: bolder;
     margin-bottom: 1rem;
+    cursor:pointer;
 }
 
 .footer{
@@ -138,4 +139,31 @@ body {
     text-align: center;
     width:100vw;
     height:5rem;
+}
+
+.blogbox{
+    width:80vw;
+    height:30rem;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #333;
+    padding: 2rem;
+}
+
+.blogimage{
+    width:25vw;
+    display: flex;
+    margin:auto;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.margin{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+span{
+    font-weight: bold;
 }
