@@ -75,7 +75,7 @@
     <h1 class="headingtwo">ADD Rocket Details</h1>
 
     <div class="formbox">
-      <form method="post">{% csrf_token %}
+      <form method="post" enctype='multipart/form-data'>{% csrf_token %}
         {{form}}
         <input type="submit" value='Submit' class='submitbtn'/>
       </form>

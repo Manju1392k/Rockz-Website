@@ -11,4 +11,4 @@ class RocketBlogForm(ModelForm):
     Rocket_Name = forms.CharField(widget=forms.TextInput(attrs={'class': 'inputags'}))
     Rocket_LaunchDate = forms.CharField(widget=forms.TextInput(attrs={'class': 'inputags'}))
     Rocket_LandingDate = forms.CharField(widget=forms.TextInput(attrs={'class': 'inputags'}))
-    Rocket_Image = forms.FileField(widget=forms.FileInput(attrs={'class': 'imgtag'}))
+    Rocket_Image = forms.ImageField(widget=forms.FileInput(attrs={'class': 'imgtag'}))
