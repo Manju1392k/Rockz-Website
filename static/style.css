@@ -13,6 +13,7 @@ body{
     width: 100vw;
     height: 5rem;
     background-image: url('/static/navbar.jpg');
+    background-size: 100vw 8rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -54,4 +55,27 @@ body{
 .heading {
     font-weight: bold;
     margin-top: 2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxOne {
+    width:30vw;
+    height:25rem;
+    background-color: red;
+    background-image: url('/static/info_1.jpg');
+    background-size: 30vw 25rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.headingtwo{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
 }
