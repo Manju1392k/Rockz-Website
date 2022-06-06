@@ -34,3 +34,11 @@
     width: 3rem;
     border-radius: 70%;
 }
+
+.image img {
+    width: 85vw;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 6px;
+}
