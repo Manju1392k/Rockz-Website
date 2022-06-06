@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .navbar {
     width: 100vw;
     height: 5rem;
@@ -41,4 +45,13 @@
     margin: auto;
     margin-top: 2rem;
     border-radius: 6px;
+}
+
+.text {
+    padding: 2rem;
+}
+
+.heading {
+    font-weight: bold;
+    margin-top: 2rem;
 }
